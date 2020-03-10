@@ -9,5 +9,10 @@ public class RestController {
 	public String hello() {
 		return "Hello";
 	}
+	
+	@GetMapping("/message")
+	public String message() {
+		return "Good Evening";
+	}
 
 }
